@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\tmaso\\source\\repos\\BranchSearchTreeChecker\\BranchSearchTreeCheckerTests\\BranchSearchTreeCheckerTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\tmaso\\source\\repos\\BranchSearchTreeChecker\\BranchSearchTreeCheckerTests\\BranchSearchTreeCheckerTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tmaso\\source\\repos\\BranchSearchTreeChecker\\BranchSearchTreeCheckerTests\\BranchSearchTreeCheckerTests.csproj",
+        "projectName": "BranchSearchTreeCheckerTests",
+        "projectPath": "C:\\Users\\tmaso\\source\\repos\\BranchSearchTreeChecker\\BranchSearchTreeCheckerTests\\BranchSearchTreeCheckerTests.csproj",
+        "packagesPath": "C:\\Users\\tmaso\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tmaso\\source\\repos\\BranchSearchTreeChecker\\BranchSearchTreeCheckerTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tmaso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\tmaso\\source\\repos\\BranchSearchTreeChecker\\BranchSearchTreeChecker\\BinarySearchTreeChecker.csproj": {
+                "projectPath": "C:\\Users\\tmaso\\source\\repos\\BranchSearchTreeChecker\\BranchSearchTreeChecker\\BinarySearchTreeChecker.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.10.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\tmaso\\source\\repos\\BranchSearchTreeChecker\\BranchSearchTreeChecker\\BinarySearchTreeChecker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tmaso\\source\\repos\\BranchSearchTreeChecker\\BranchSearchTreeChecker\\BinarySearchTreeChecker.csproj",
+        "projectName": "BinarySearchTreeChecker",
+        "projectPath": "C:\\Users\\tmaso\\source\\repos\\BranchSearchTreeChecker\\BranchSearchTreeChecker\\BinarySearchTreeChecker.csproj",
+        "packagesPath": "C:\\Users\\tmaso\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tmaso\\source\\repos\\BranchSearchTreeChecker\\BranchSearchTreeChecker\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tmaso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NET.Sdk.Functions": {
+              "target": "Package",
+              "version": "[1.0.24, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
