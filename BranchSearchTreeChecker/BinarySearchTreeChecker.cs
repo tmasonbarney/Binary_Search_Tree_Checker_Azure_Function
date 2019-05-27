@@ -24,9 +24,7 @@ namespace BinarySearchTreeChecker
             var branchTree = JsonConvert.DeserializeObject<BinaryTree>(requestBody);
            
 
-            return branchTree.BST
-                ? (ActionResult)new OkObjectResult("It is a Branch Search Tree!")
-                : new OkObjectResult("Unfortunately its not a Branch Search Tree!");
+            return new OkObjectResult(branchTree.Info);
         }
     }
 }
